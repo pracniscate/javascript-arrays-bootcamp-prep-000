@@ -20,9 +20,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars, candyCane) {
 }
 
 function accessElementInArray(chocolateBars, index) {
-  console.log(chocolateBars[1]);
+  return chocolateBars[1];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift();
+  return chocolateBars;
 }
